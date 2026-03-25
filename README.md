@@ -16,6 +16,26 @@ Para garantizar la seguridad y privacidad, la aplicación se distribuye como un 
 3.  **Descompresión:** Utilice la contraseña proporcionada por el administrador para extraer los archivos con 7zip. 
 4.  **Ejecución:** Localice el archivo `Aplicacion de navegador.html` y ábralo con Microsoft Edge.
 
+### 🌐 Modo "Aplicación de Escritorio" (Recomendado)
+
+Para una mejor experiencia, puedes aislar la herramienta en su propia ventana, sin pestañas ni distracciones, funcionando exactamente como una aplicación nativa instalada en tu PC. 
+
+Sigue estos 3 sencillos pasos para configurar el acceso directo usando **Microsoft Edge** (Navegador corporativo estándar):
+
+**Paso 1: Copiar la ruta de la aplicación**
+1. Abre la carpeta donde descargaste/descomprimiste esta herramienta.
+2. Abre el archivo `index.html` en tu navegador.
+3. Copia toda la dirección de la barra superior. Se verá algo así:
+   `file:///C:/Users/TuUsuario/Ruta/Soporte-B2B/index.html`
+
+**Paso 2: Crear el acceso directo**
+1. Ve al Escritorio de tu PC, haz clic derecho en un espacio vacío > **Nuevo** > **Acceso directo**.
+2. En la casilla de ubicación, pega el siguiente comando. **Atención:** Asegúrate de reemplazar `LA_RUTA_QUE_COPIASTE` por la ruta real de tu archivo del Paso 1, manteniendo las comillas:
+
+   ```
+   "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --app="LA_RUTA_QUE_COPIASTE"
+   ```
+
 ---
 
 ##  Funcionalidades Destacadas desde la V008.
