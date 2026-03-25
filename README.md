@@ -14,7 +14,7 @@ Para garantizar la seguridad y privacidad, la aplicación se distribuye como un 
 1.  **Descarga:** Diríjase a la sección [**Releases**](https://github.com/crd10lop/Herramienta-Soporte-TG-CW-Dist/releases) de este repositorio.
 2.  **Versión:** Descargue el archivo `.zip` de la versión que prefiera.
 3.  **Descompresión:** Utilice la contraseña proporcionada por el administrador para extraer los archivos con 7zip. 
-4.  **Ejecución:** Localice el archivo `Aplicacion de navegador.html` y ábralo con Microsoft Edge.
+4.  **Ejecución:** Localice el archivo `Aplicacion de navegador.html` o `Soporte B2B - Herramienta` y ábralo con Microsoft Edge.
 
 ### 🌐 Modo "Aplicación de Escritorio" (Recomendado)
 
