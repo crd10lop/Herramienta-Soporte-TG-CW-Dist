@@ -58,7 +58,12 @@ Para activar su usuario, la herramienta requiere el identificador único de su e
 
 ##  Historial de Versiones (Changelog)
 
-### **V008 - Release Actual (Estable)**
+### **V009 - Release Actual (Estable)** - Optimización de Búsqueda y Prevención de Pérdida de Datos
+* Añadido: Motor de búsqueda independiente y aislado para "Enlaces de Aplicativos", con generación de botones dinámicos.
+* Mejora: Rediseño del panel de ayuda lateral, dividiendo la "Base de Conocimientos" (teoría) y los "Enlaces Rápidos" para evitar la saturación visual.
+* Corrección: Optimización en la lógica del botón "Limpiar Pantalla". Ahora previene la duplicación de casos en el historial y respalda de forma inteligente los datos como "Incompleto" únicamente cuando es necesario.
+
+### **V008 - Panel de auditoria - Guardar casos y exportar a csv. 
 * Implementación de panel de Auditoría y exportación masiva a `.csv`.
 * Cierre de sesión automático por cambio de día (Hora Local CO).
 * Optimización del motor de plantillas Word con lógica de inyección de imágenes.
